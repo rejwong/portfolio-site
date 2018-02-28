@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="Rebecca Wong Portfolio">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Rebecca Wong">
+  <title>Rebecca Wong Portfolio</title>
+  
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:300" rel="stylesheet">
+  
+  <!-- Used Normalize.css as a HTML5-ready alternative to CSS resets -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+  <!-- [if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif] -->
+    
+    <!-- Created "page" as the main container -->
+    <!-- TODO: add link to main portfolio picture when it is uploaded -->
+    <div class="page">
+      <header class="masthead">
+        <img src="images_src/udacity-logo.svg" class="logo" alt="Udacity Logo">
+        <!-- added header-text class but not sure what to do with it -->
+        <div class="masthead-text">
+          <h1 class="name">Rebecca Wong</h1>
+          <p class="job-title">Front-End Web Developer</p>
+        </div>
+      </header>
+      
+      <hr>
+      
+      <main>
+        <!-- images from https://unsplash.com/ see license: https://unsplash.com/license -->
+        <!-- haven't added retina versions as browser can do automatically. Added xlarge for high retina on large screen -->
+        <div class="main-picture">
+          <img class="hero" src="images_src/pineapple-supply-co-124390-unsplash-default.jpg" 
+          alt="Main portfolio picture"
+          srcset="
+          images/pineapple-supply-co-124390-320_small.jpg 320w,
+          images/pineapple-supply-co-124390-640_medium.jpg 640w,
+          images/pineapple-supply-co-124390-1280_large.jpg 1280w,
+          images/pineapple-supple-co-124390-2560_xlarge.jpg 2560w"
+          sizes="
+          (max-width: 639px) 75vw,
+          (min-width: 640px) 75vw,
+          (min-width: 800px) 75vw,
+          (max-width 1280px) 75vw">
+        </div>
+
+        <!-- TODO: add portfolio projects as they are completed -->
+        <section class="portfolio-wrapper">
+          <h2 class="project-title">Featured Work</h2>            
+          <div class="projects-wrapper">
+            <div class="project">
+                <img class="project-pic" src="images_src/kari-shea-109895-unsplash.jpg" alt="Portfolio one"
+                srcset="
+                ./public/images/kari-shea-109895-unsplash-320_small.jpg
+                ./public/images/kari-shea-109895-unsplash-640_medium.jpg"
+                sizes="
+                (max-width: 639px) 75vw,
+                (min-width: 640px) 33.3333vw">
+              <div class="project-info">
+                <h3 class="project-name">Project One</h3>
+                <!-- TODO: add links to this and other projects when they are uploaded -->
+                <p class="project-link">wwww.portfolio.com/one</p>
+              </div>
+            </div>
+            <div class="project">
+                <img class="project-pic" src="images_src/martino-pietropoli-471120-unsplash.jpg" alt="Portfolio two"
+                srcset="
+                ./public/images/martino-pietropoli-471120-unsplash-320_small.jpg
+                ./public/images/martino-pietropoli-471120-unsplash-640_medium.jpg"
+                sizes="
+                (max-width: 639px) 75vw,
+                (min-width: 640px) 33.3333vw">
+              <div class="project-info">
+                <h3 class="project-name">Project Two</h3>
+                <p class="project-link">www.portfolio.com/two</p>
+              </div>
+            </div>
+            <div class="project">
+                <img class="project-pic" src="images_src/scott-webb-208667-unsplash.jpg" alt="Portfolio three"
+                srcset="
+                ./public/images/scott-webb-208667-unsplash-320_small.jpg
+                ./public/images/scott-webb-208667-unsplash-640_medium.jpg"
+                sizes="
+                (max-width: 639px) 75vw,
+                (min-width: 640px) 33.3333vw">
+              <div class="project-info">
+                <h3 class="project-name">Project Three</h3>
+                <p class="project-link">www.portfolio.com/three</p>
+              </div>
+            </div>
+          </div>
+        </section>  
+
+      </main>
+      
+    </div>
+  </body>
+  
+  </html>

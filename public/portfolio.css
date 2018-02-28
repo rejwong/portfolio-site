@@ -1,0 +1,154 @@
+/* global */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* typography */
+h1,
+h2,
+h3,
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* page content */
+.page {
+  margin: 0 auto;
+  width: 75%;
+  /* clipped to 1280px to prevent further scaling */
+  max-width: 1280px;
+}
+
+/* header */
+.masthead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0;
+}
+
+.masthead-text {
+
+}
+
+.name {
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 0.8rem;
+}
+
+/* included this media query near the element it's related to for readability */
+@media (min-width: 400px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0;
+  }
+
+  .name {
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 0.8rem;
+  }
+}
+
+.job-title {
+  font-size: 14px;
+  text-align: right;
+  margin-top: 0;
+}
+
+hr {
+  border-width: 1px;
+  border-bottom: 0;
+  border-color: #333;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* main portfolio item */
+.main-picture {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.hero {
+  width: 100%;
+  display: block;
+}
+
+/* grid - additional portfolio items */
+.portfolio-wrapper {
+  text-align: center;
+}
+
+.project {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.project-title {
+  font-size: 20px;
+}
+
+.project-pic {
+  display: block;
+	border: 0;
+	width: 100%;
+  height: auto;
+}
+
+/* used CSS Grid to create small screen column layout */
+.projects-wrapper {
+  grid-template-columns: 20% auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-name, 
+.project-link {
+  margin: 0.5rem 0;
+}
+
+.project-name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.project-link {
+  font-size: 12px;
+  font-weight: 300;
+  color: #999;
+}
+
+/* used CSS Grid to create row layout for larger screens */
+@media (min-width: 640px) {
+  .projects-wrapper {
+      display: grid;
+      grid-template-rows: 200px;
+      grid-auto-rows: 200px;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: #fff;
+      color: #444;
+      grid-row-gap: 20px;
+  }
+}
+
+
+
