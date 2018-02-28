@@ -115,12 +115,14 @@ hr {
 
 /* used CSS Grid to create small screen column layout */
 .projects-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: 20% auto;
   display: flex;
   flex-wrap: wrap;
 }
 
-.project-name, 
+.project-name,
 .project-link {
   margin: 0.5rem 0;
 }
