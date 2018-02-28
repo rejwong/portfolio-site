@@ -1,6 +1,6 @@
 # portfolio-site
 
-My portfolio site will act as a preview for my front-end development work. It will feature front-end web development projects as they are finished and uploaded, with one main image and additional images with titles. This is my first responsive site, built as the first project on the Google Developer Scholarship - Udacity Front-End nanodegree. The site uses responsive images and CSS Grid.
+My portfolio site will act as a preview for my front-end development work. It will feature front-end web development projects as they are finished and uploaded, with one main image and additional images with titles. This is my first responsive site, built as the first project on the Google Developer Scholarship - Udacity Front-End Nanodegree. The site uses responsive images and CSS Grid.
 
 ## Getting Started
 
