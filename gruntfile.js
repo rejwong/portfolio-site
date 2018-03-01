@@ -17,25 +17,25 @@ module.exports = function(grunt) {
             {
                 width: 320,
                 quality: 50,
-                // name: 'small',
+                name:"",
                 suffix: '_small'
             },
             {
                 width: 640,
                 quality: 50,
-                // name: 'medium',
+                name:"",
                 suffix: '_medium'
             },
             {
                 width: 1280,
                 quality: 50,
-                // name: 'large',
+                name:"",
                 suffix: '_large'
             },
             {
                 width: 2560,
                 quality: 50,
-                // name: 'xlarge',
+                name:"",
                 suffix: '_xlarge'
             }
         ]

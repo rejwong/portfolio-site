@@ -4,6 +4,16 @@ The portfolio website will act as a preview of my development work, with project
 
 ## Getting Started
 
+This project also needs grunt-cli to be installed globally and ImageMagick:
+>To make it simpler to run (without having to install grunt and imagemagick ) I have included the cut images, normally I would add this into a build task.
+
+- Grunt
+  - `npm install grunt -g`
+- ImageMagick
+  - `brew install ImageMagick` (Mac)
+  - [Other ways to install](http://www.imagemagick.org/script/download.php)
+- to cut images: `npm run cut-images`
+
 - Install NPM packages using `npm install`
 - To run local server use: `npm start`
 - Go to `localhost:3000` in your browser 
