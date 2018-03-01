@@ -38,17 +38,13 @@ p {
   margin-bottom: 0;
 }
 
-.masthead-text {
-
-}
-
 .name {
   font-size: 24px;
   line-height: 100%;
   margin-bottom: 0.8rem;
 }
 
-/* included this media query near the element it's related to for readability */
+/* included the media query near the element it's related to for readability */
 @media (min-width: 400px) {
   .logo {
     width: 60px;
@@ -79,7 +75,6 @@ hr {
 
 /* main portfolio item */
 .main-picture {
-  display: block;
   margin-bottom: 2rem;
 }
 
@@ -110,17 +105,12 @@ hr {
   display: block;
 	border: 0;
 	width: 100%;
-  /* height: auto; */
 }
 
 /* used CSS Grid to create small screen column layout */
 .projects-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  /* grid-template-columns: 1fr 1fr 1fr;
-  grid-template-columns: 20% auto; */
-  /* display: flex;
-  flex-wrap: wrap; */
 }
 
 /* used CSS Grid to create row layout for larger screens */
@@ -129,13 +119,8 @@ hr {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 10px;
-      /* grid-template-rows: 200px;
-      grid-auto-rows: 200px;
-      grid-gap: 10px;
-      grid-template-columns: 1fr 1fr 1fr;
       background-color: #fff;
       color: #444;
-      grid-row-gap: 20px; */
   }
 }
 
@@ -162,8 +147,3 @@ hr {
   font-weight: 300;
   color: #999;
 }
-
-
-
-
-
